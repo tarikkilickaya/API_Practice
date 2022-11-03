@@ -16,6 +16,7 @@ public class GetRequest02 {
         String url = "https://reqres.in/api/users";
 
         Response response = given().get(url);
+        response.prettyPrint();
 
         // Header Test
         response.then().
