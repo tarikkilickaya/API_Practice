@@ -9,7 +9,7 @@ public class GetRequest05 {
 
     @Test
     public void test05() {
-        String url = "https://www.gmibank.com/api/tp-customers";
+        String url = "https://www.gmibank.com/api/tp-customers/42697";
 
         String token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiYXRjaDgxIiwiYXV0aCI6IlJPTEVfQURNSU4iLCJleHAiOjE2NzAwMDQyNzd9.ZGNWLPbWqtl2htNVkOWTgF_KHJOXFJX8Z0sUFSK66KGccFrMD9TR15xJWZE3FdsVZISELbrYhg3j4nfO0YsSWQ";
 
