@@ -19,10 +19,10 @@ public class ReadText {
             int i = 0;
             while (line != null) {
                 Customer customer = new Customer();
-                //customer.setSsn(line.split(",")[0]);
+                customer.setSsn(line.split(",")[0]);
                 sb.append(System.lineSeparator());
                 line = br.readLine();
-                //all.add(customer.getSsn());
+                all.add(customer.getSsn());
             }
         } catch (Exception e) {
             e.printStackTrace();
