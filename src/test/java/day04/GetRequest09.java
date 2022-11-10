@@ -3,7 +3,6 @@ package day04;
 import io.restassured.response.Response;
 import org.junit.Test;
 import org.testng.asserts.SoftAssert;
-import pojos.Account;
 import pojos.Country;
 import pojos.Customer;
 import pojos.User;

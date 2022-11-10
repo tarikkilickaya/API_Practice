@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.*;
-import static org.junit.Assert.*;
 
 public class GMIBank01 extends GMIBankBaseURL {
 
