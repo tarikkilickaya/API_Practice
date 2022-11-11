@@ -39,9 +39,11 @@ http://www.gmibank.com/api/tp-customers/110452
         // Do Assertion
         Customer actualData = response.as(Customer.class);
 
+        SoftAssert softAssert = new SoftAssert();
+/*
         assertEquals(200, response.getStatusCode());
 
-        SoftAssert softAssert = new SoftAssert();
+
 
         softAssert.assertEquals(actualData.getId(), expectedData.getId());
         softAssert.assertEquals(actualData.getFirstName(), expectedData.getFirstName());
@@ -70,6 +72,8 @@ http://www.gmibank.com/api/tp-customers/110452
         softAssert.assertEquals(actualData.getUser().getResetDate(), expectedData.getUser().getResetDate());
 
         softAssert.assertAll();
+
+ */
 
         // ObjectMapper ile doğrulama
 

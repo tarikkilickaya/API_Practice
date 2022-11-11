@@ -15,16 +15,16 @@ public class PostRequest extends GMIBankBaseURL {
     */
 
     @Test
-    public void test10() {
+    public void test10(){
         spec01.pathParam("first", "tp-countries");
 
         CountryPost countryPost = new CountryPost("Batch81");
         System.out.println("countryPost = " + countryPost);
 
         Response response = given().contentType(ContentType.JSON)
-                .headers("Authorization", "Bearer " + generateToken())
-                .spec(spec01).when().body(countryPost)
-                .post("/{first}");
+                        .headers("Authorization", "Bearer " + generateToken())
+                        .spec(spec01).when().body(countryPost)
+                        .post("/{first}");
 
         response.prettyPrint();
 
